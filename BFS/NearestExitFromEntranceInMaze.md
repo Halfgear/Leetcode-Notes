@@ -1,3 +1,4 @@
+```python
 from collections import deque
 from typing import List
 
@@ -32,3 +33,4 @@ class Solution:
                     return curCount
 
         return -1
+```
