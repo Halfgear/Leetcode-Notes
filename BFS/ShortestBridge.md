@@ -1,3 +1,18 @@
+# [Problem Link](https://leetcode.com/problems/shortest-bridge/)
+
+# Intuition
+
+# Approach
+
+
+# Complexity
+- Time complexity:
+The worst-case time complexity is O(n^2), where n is the number of rows and columns. This is simply because, I may need to visit all the cells of the island and water.
+
+- Space complexity:
+The worst-case space complexity is also O(n^2) because in a scenario where every cell is island, we might have to store all of them in the fisrt queue.
+
+
 ```python
 from collections import deque
 from typing import List
