@@ -20,7 +20,7 @@ O(n) as we make two or three separate passes over the nums array.
 - Space complexity:
 O(n) for the space required by the left_list, right_list, and output.
 
-- Memory Optimized Space complexity
+- Optimized Space complexity
 O(1) ignoring the space needed for the output array since I did not use any additional data structures.
 
 # Code
