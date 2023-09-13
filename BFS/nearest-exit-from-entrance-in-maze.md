@@ -1,4 +1,4 @@
-# [Problem Link](https://leetcode.com/problems/shortest-bridge/description/)
+# [Problem Link](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 # Intuition
 To find the nearest exit in a maze, I use Breadth First Search (BFS) because BFS explores the neighboring cells at the current level before moving on to cells that are two steps away. This ensures that as soon as we encounter outside of border, it's the closest one.

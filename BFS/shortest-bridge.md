@@ -1,9 +1,16 @@
 # [Problem Link](https://leetcode.com/problems/shortest-bridge/)
 
 # Intuition
+To find the shortest bridge, I first needed to identify one island and then try to expand from this island to reach the other island in shortest path. Each level of expansion is a BFS (Breadth-First Search) layer until I hit the second island.
 
 # Approach
+1. loop through the matrix to find the first cell that belongs to one of the islands (represented by value 1). Start a BFS to label this entire island to another distinct number (say 2).
 
+2. After the first island is labeled, start another BFS from all the 2 labeled cells. The BFS will go layer by layer. If it hits the original value 1, it means I've reached the second island, and the number of layers you've traversed will be the shortest bridge.
+
+    - This could be more optimized by starting only at the border of 2 labeled cells.
+
+3. If during the BFS, If reached a cell with value 0 (water), I marked it -1 and continue the BFS in subsequent layers.
 
 # Complexity
 - Time complexity:
