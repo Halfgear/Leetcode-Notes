@@ -1,4 +1,4 @@
-# [Problem Link](https://leetcode.com/problems/name-of-problem/description/)
+# [Problem Link](https://leetcode.com/problems/move-zeroes/description/)
 
 # Intuition
 Instead of focusing on moving zeros, I focused on placing the non-zero elements in their correct position. Once all the non-zero elements are in place, I can set remaining elements to zero.
