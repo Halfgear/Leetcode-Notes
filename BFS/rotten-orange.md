@@ -1,13 +1,21 @@
-# [Problem Link](https://leetcode.com/problems/name-of-problem/description/)
+# [Problem Link](https://leetcode.com/problems/rotting-oranges/description/)
 
 # Intuition
+This question is basic BFS search question. I need to find all rotten orange first, start BFS on every orange, track the time, and check if it had any fresh orange left.
 
 # Approach
+1. Find all rotten Oranges to start spreading and add them to queue.
+2. Spread the rottening to four directions. If if found an new fresh orange, make it rotten and add it to the queue.
+3. Loop until there is no more orange to spread.
+4. Check if there is any fresh orange left. If there is, return -1.
+5. If there is no fresh orange, return the tracked mins to finish looping.
 
 # Complexity
 - Time complexity:
+The worst-case time complexity is O(n×m), where n is the number of rows and m is the number of columns. This is simply because, I may need to visit all cells in the grid.
 
 - Space complexity:
+The worst-case space complexity is also O(n×m) because in a scenario where every orange is rotten, I might have to append all of them in the queue.
 
 # Code
 ```python

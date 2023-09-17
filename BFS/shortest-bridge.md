@@ -17,7 +17,7 @@ To find the shortest bridge, I first needed to identify one island and then try 
 The worst-case time complexity is O(n^2), where n is the number of rows and columns. This is simply because, I may need to visit all the cells of the island and water.
 
 - Space complexity:
-The worst-case space complexity is also O(n^2) because in a scenario where every cell is island, we might have to store all of them in the fisrt queue.
+The worst-case space complexity is also O(n^2) because in a scenario where every cell is island, I might have to store all of them in the fisrt queue.
 
 
 ```python
