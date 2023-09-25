@@ -12,7 +12,5 @@ Hello! This repo is a reflection of algorithmic challenges and my ambition to be
 ##  📊 Progress Tracking
 I will try to maintain a detailed log of each problem I solve, noting down my intuition, approach, and time complexity. This repository serves as both a showcase of my progress and a reflection tool to understand areas of improvement.
 
-## 🔗 Connect with Me
-If you're on a similar journey or if you have any insights, suggestions, or feedback, please feel free to raise an issue or connect with me directly.
-
-[Personal Blog](https://jooncode.com/) - where I share my development insights and experiences.
+# [Personal Blog](https://jooncode.com/)
+where I share my development insights and experiences.
